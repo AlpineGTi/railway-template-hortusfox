@@ -1,4 +1,4 @@
-FROM ghcr.io/danielbrendel/hortusfox-web:v6.3
+FROM ghcr.io/danielbrendel/hortusfox-web:v6.4
 
 RUN printf 'User-agent: *\nDisallow: /\n' > /var/www/html/public/robots.txt
 RUN a2enmod headers \
